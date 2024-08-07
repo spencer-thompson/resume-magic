@@ -1,0 +1,33 @@
+[contact]
+name = "Spencer Thompson"
+email = "email"
+phone = "phone num"
+location = "Highland UT"
+
+[[links]]
+name = "name like github"
+url = "the url"
+
+[[skills]]
+category = "some name"
+content = ["a skill", "another skill"]
+
+[[experience]]
+title = "CEO"
+company = "google"
+location = "wisconsin"
+description = "a string"
+start = 2020-04-01
+end = 2020-05-01
+notes = ["stuff", "more stuff"] # measurable achievements
+
+[[projects]]
+name = "name of project"
+description = "description of the project"
+
+[[education]]
+school = "string"
+location = "location of school"
+degree = "your degree"
+gpa = "4.0"                     # or number
+note = "something"
