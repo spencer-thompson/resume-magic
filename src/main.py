@@ -1,6 +1,17 @@
 import ollama
 import toml
 
+
+def main():
+
+    md = ""
+
+    with open("../my_resume.toml", "r") as f:
+        resume_data = toml.load(f)
+
+    print(resume_data)
+
+
 # r = ollama.chat(
 #     model="mistral",
 #     messages=[
@@ -9,11 +20,10 @@ import toml
 # )
 
 
-r = ollama.generate(model="llama3.1", prompt="Hello")
+# r = ollama.generate(model="llama3.1", prompt="Hello")
 #
-print(r["response"])
+# print(r["response"])
 
-# with open("example.toml", "r") as f:
-#     config = toml.load(f)
-#
-# print(config)
+
+if __name__ == "__main__":
+    main()

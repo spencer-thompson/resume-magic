@@ -1,0 +1,72 @@
+[contact]
+first = "Spencer"
+last = "Thompson"
+email = "youremail@email.com"
+phone = "111-111-1111"
+location = "Your Address"
+
+[summary]
+title = ["Software Engineer", "Tech Lead"]
+
+[[links]]
+name = "Github"
+username = "@spencer-thompson"
+icon = "󰊤"
+url = "https://github.com/spencer-thompson"
+
+[[links]]
+name = "LinkedIn"
+username = "Spencer Thompson"
+icon = ""
+url = "https://www.linkedin.com/in/the-spencer-thompson"
+
+[[skills]]
+category = "Programming Languages"
+content = ["Python", "Go", "Lua", "Bash", "SQL", "R"]
+
+[[skills]]
+category = "Technologies"
+content = ["Neovim", "Linux", "Docker", "Docker Compose", "Traefik", "Postgres"]
+
+[[experience]]
+title = "Tech Lead"
+company = "Innovation Academy"
+location = "Orem UT"
+description = "Responsible for making sure projects were successful"
+start = 2024-01-08
+end = "Present"
+notes = ["stuff", "more stuff"]                                      # measurable achievements
+tech = ["Python", "Docker"]
+
+[[experience]]
+title = "Developer"
+company = "E2i"
+location = "Orem UT"
+description = "todo"
+start = 2022-12-01
+end = 2024-01-08
+notes = ["stuff", "more stuff"]           # measurable achievements
+tech = ["Python", "Javascript", "Docker"]
+
+[[projects]]
+name = "Team Building"
+link = ""
+description = "description of the project"
+
+[[projects]]
+name = "AI Tutor"
+link = "https://aitutor.live"
+description = "description of the project"
+
+[[projects]]
+name = "Life Line"
+link = ""
+description = "description of the project"
+
+
+[[education]]
+school = "Utah Valley University"
+location = "Orem UT"
+degree = "Computational Data Science"
+gpa = "3.95"                          # or number
+notes = ["Dean's List"]

@@ -1,3 +1,7 @@
 # Resume Magic
 
-This project uses Pandoc to create resumes, and optionally post them to as many job boards as possible.
+I created this project because I felt like the resume/cover letter writing process could be automated, but I felt like the available options didn't fit my taste.
+
+## Implementation
+
+This project uses [Typst](https://typst.app/) to create resumes.
