@@ -20,6 +20,7 @@ username = "Spencer Thompson"
 icon = ""
 url = "https://www.linkedin.com/in/the-spencer-thompson"
 
+# Currently unused
 [[skills]]
 category = "Programming Languages"
 content = ["Python", "Go", "Lua", "Bash", "SQL", "R"]
@@ -27,6 +28,25 @@ content = ["Python", "Go", "Lua", "Bash", "SQL", "R"]
 [[skills]]
 category = "Technologies"
 content = ["Neovim", "Linux", "Docker", "Docker Compose", "Traefik", "Postgres"]
+
+[[experience]]
+title = "Lead Developer"
+company = "Tech Management"
+location = "Orem UT"
+description = "Created and deployed an AI Tutor using Large Language Models. The Tutor is deployed in several University courses and uses course information to provide custom tutoring for users."
+start = 2024-02-08
+end = "Present"
+notes = ["stuff", "more stuff"] # measurable achievements
+tech = [
+  "Python",
+  "Docker",
+  "Docker Compose",
+  "Streamlit",
+  "FastAPI",
+  "Javascript",
+  "MongoDB",
+  "CI/CD",
+]
 
 [[experience]]
 title = "Tech Lead"
@@ -39,34 +59,45 @@ notes = ["stuff", "more stuff"]                                      # measurabl
 tech = ["Python", "Docker"]
 
 [[experience]]
-title = "Developer"
+title = "Software Engineer"
 company = "E2i"
 location = "Orem UT"
 description = "todo"
 start = 2022-12-01
 end = 2024-01-08
-notes = ["stuff", "more stuff"]           # measurable achievements
-tech = ["Python", "Javascript", "Docker"]
+notes = ["stuff", "more stuff"]                                         # measurable achievements
+tech = ["Python", "Docker", "CSS", "HTML", "Django", "Postgres", "SQL"]
 
 [[projects]]
-name = "Team Building"
+name = "Team Builder"
 link = ""
 description = "description of the project"
+notes = []
+tech = []
 
 [[projects]]
 name = "AI Tutor"
 link = "https://aitutor.live"
 description = "description of the project"
+notes = []
+tech = []
 
 [[projects]]
 name = "Life Line"
 link = ""
 description = "description of the project"
-
+notes = []
+tech = []
 
 [[education]]
 school = "Utah Valley University"
 location = "Orem UT"
 degree = "Computational Data Science"
-gpa = "3.95"                          # or number
-notes = ["Dean's List"]
+start = 2021-12-01
+end = "Present"
+gpa = "3.95" # or number
+notes = [
+  "Dean's List with 3.95 GPA",
+  "President of the Computer Science Club",
+  "Honors Program",
+]
